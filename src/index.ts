@@ -4,4 +4,3 @@ import { CastAttribute } from "./Casts/CastAttribute";
 
 export { BaseEntity, Relation, Cast, Collection, ModelDecorator, CastAttribute };
 export type { BaseEntityType, BaseCastType };
-

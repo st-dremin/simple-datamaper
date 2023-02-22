@@ -1,6 +1,6 @@
-import { Collection, ModelDecorator, Relation } from "../Decorators";
-import { BaseEntity } from "../BaseEntity";
 import { faker } from '@faker-js/faker';
+import { ModelDecorator, BaseEntity, Collection, Relation } from '../index';
+
 faker.locale = 'ru';
 
 @ModelDecorator()
