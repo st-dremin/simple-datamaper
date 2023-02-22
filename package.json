@@ -1,6 +1,6 @@
 {
 	"name": "@st-dremin/simple-orm-ts",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Простая ORM для описания моделей в ts",
 	"main": "index.js",
 	"scripts": {
