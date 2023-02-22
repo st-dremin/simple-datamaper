@@ -1,5 +1,5 @@
 {
-	"name": "simple-orm-ts",
+	"name": "@st-dremin/simple-orm-ts",
 	"version": "1.0.0",
 	"description": "Простая ORM для описания моделей в ts",
 	"main": "index.js",
@@ -7,7 +7,6 @@
 		"test": "jest --config jestconfig.json",
 		"build": "tsc",
 		"version": "npm run build && git add -A",
-		"postversion": "git push && git push --tags"
 	},
 	"repository": {
 		"type": "git",
@@ -25,6 +24,7 @@
 	},
 	"homepage": "https://github.com/st-dremin/simple-orm-ts#readme",
 	"dependencies": {
+		"@st-dremin/simple-orm-ts": "^1.0.0",
 		"reflect-metadata": "^0.1.13"
 	},
 	"devDependencies": {
