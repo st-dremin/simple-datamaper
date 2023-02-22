@@ -6,7 +6,7 @@
 	"scripts": {
 		"test": "jest --config jestconfig.json",
 		"build": "tsc",
-		"version": "npm run build && git add -A",
+		"version": "npm run build && git add -A"
 	},
 	"repository": {
 		"type": "git",
