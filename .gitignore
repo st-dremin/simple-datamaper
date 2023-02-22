@@ -4,6 +4,7 @@ node_modules
 
 # Quasar core related directories
 /dist
+/lib/__tests__
 
 
 # Log files

@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"module": "ESNext",
+		"moduleResolution": "Node",
+		"declaration": true,
+		"outDir": "./lib",
+		"strict": true,
+		"sourceMap": false,
+		"isolatedModules": true,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"skipLibCheck": true
+	},
+	"include": ["src", "**/__tests__/*"],
+	"exclude": ["node_modules"]
+}
