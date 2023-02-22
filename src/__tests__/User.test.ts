@@ -1,5 +1,5 @@
 import { faker } from '@faker-js/faker';
-import { ModelDecorator, BaseEntity, Collection, Relation } from '../index';
+import { ModelDecorator, BaseEntity, Collection, Relation } from '../../src';
 
 faker.locale = 'ru';
 

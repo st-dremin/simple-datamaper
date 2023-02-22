@@ -1,8 +1,8 @@
 {
 	"name": "@st-dremin/simple-orm-ts",
-	"version": "1.0.2",
+	"version": "1.0.4",
 	"description": "Простая ORM для описания моделей в ts",
-	"main": "index.js",
+	"main": "lib/index.js",
 	"scripts": {
 		"test": "jest --config jestconfig.json",
 		"build": "tsc",
@@ -42,8 +42,12 @@
 		"yarn": ">= 1.21.1"
 	},
 	"files": [
-		"lib/**/*",
-		"src/**/*",
-		"index.d.ts"
-	]
+		"lib/**/*"
+	],
+	"exports": {
+		".": {
+			"import": "./lib/index.js"
+		},
+		"./package.json": "./package.json"
+	}
 }
