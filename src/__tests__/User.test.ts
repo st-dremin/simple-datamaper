@@ -1,5 +1,5 @@
 import { faker } from '@faker-js/faker';
-import { ModelDecorator, BaseEntity, Collection, Relation } from '../../src';
+import { ModelDecorator, BaseEntity, Collection, Relation } from '@st-dremin/simple-orm-ts';
 
 faker.locale = 'ru';
 

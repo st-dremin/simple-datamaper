@@ -1,7 +1,7 @@
 {
-	"name": "@st-dremin/simple-orm-ts",
-	"version": "1.0.4",
-	"description": "Простая ORM для описания моделей в ts",
+	"name": "@stdremin/simple-ts-datamaper",
+	"version": "1.0.0",
+	"description": "Простой datamaper для описания и конвертации объектов в моделли для ts",
 	"main": "lib/index.js",
 	"scripts": {
 		"test": "jest --config jestconfig.json",
@@ -10,7 +10,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/st-dremin/simple-orm-ts.git"
+		"url": "git+https://github.com/st-dremin/simple-datamaper.git"
 	},
 	"keywords": [
 		"ORM",
@@ -20,9 +20,9 @@
 	"author": "StanislavDremin",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/st-dremin/simple-orm-ts/issues"
+		"url": "https://github.com/st-dremin/simple-datamaper/issues"
 	},
-	"homepage": "https://github.com/st-dremin/simple-orm-ts#readme",
+	"homepage": "https://github.com/st-dremin/simple-datamaper#readme",
 	"dependencies": {
 		"@st-dremin/simple-orm-ts": "^1",
 		"reflect-metadata": "^0.1.13"

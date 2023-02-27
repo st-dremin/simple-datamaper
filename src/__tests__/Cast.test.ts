@@ -1,5 +1,5 @@
 import { faker } from "@faker-js/faker";
-import { ModelDecorator, BaseEntity, CastAttribute, Cast } from '../../src';
+import { ModelDecorator, BaseEntity, CastAttribute, Cast } from '@st-dremin/simple-orm-ts';
 
 
 class DateCast extends CastAttribute {
