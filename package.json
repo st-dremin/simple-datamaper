@@ -1,6 +1,6 @@
 {
 	"name": "@stdremin/simple-ts-datamaper",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Простой datamaper для описания и конвертации объектов в моделли для ts",
 	"main": "lib/index.js",
 	"scripts": {
@@ -13,9 +13,9 @@
 		"url": "git+https://github.com/st-dremin/simple-datamaper.git"
 	},
 	"keywords": [
-		"ORM",
-		"ts ORM",
-		"TypeScript ORM"
+		"datamaper",
+		"ts models",
+		"TypeScript models"
 	],
 	"author": "StanislavDremin",
 	"license": "ISC",
@@ -24,7 +24,6 @@
 	},
 	"homepage": "https://github.com/st-dremin/simple-datamaper#readme",
 	"dependencies": {
-		"@st-dremin/simple-orm-ts": "^1",
 		"reflect-metadata": "^0.1.13"
 	},
 	"devDependencies": {

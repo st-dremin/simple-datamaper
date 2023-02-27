@@ -3,8 +3,7 @@
 
 Примеры:
 ```typescript
-import { Collection, ModelDecorator, Relation } from "../Decorators";
-import { BaseEntity } from "../BaseEntity";
+import { Collection, ModelDecorator, Relation, BaseEntity } from "@stdremin/simple-ts-datamaper";
 import { faker } from '@faker-js/faker';
 faker.locale = 'ru';
 
@@ -109,7 +108,7 @@ model.$fill({
 ## Мутаторы или касты
 Даннные можно автоматически приводить в нужный формат, указывая класс перобразователь.
 ```typescript
-import { CastAttribute } from "../Casts/CastAttribute";
+import { CastAttribute } from "@stdremin/simple-ts-datamaper";
 
 class DateCast extends CastAttribute {
 	set(value: string | null) {
