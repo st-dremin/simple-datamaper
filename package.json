@@ -1,6 +1,6 @@
 {
 	"name": "@stdremin/simple-ts-datamaper",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Простой datamaper для описания и конвертации объектов в моделли для ts",
 	"main": "lib/index.js",
 	"scripts": {
