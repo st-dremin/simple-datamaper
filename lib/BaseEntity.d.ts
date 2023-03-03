@@ -6,5 +6,5 @@ export declare class BaseEntity {
     private compileRelation;
     private compileCollection;
     protected compileValue(name: string, value: any): any;
-    protected setValue(name: string, value: any): void;
+    setValue(name: string, value: any): void;
 }

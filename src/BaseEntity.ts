@@ -58,7 +58,7 @@ export class BaseEntity {
         }
     }
 
-    protected setValue(name: string, value: any) {
+    public setValue(name: string, value: any) {
         if (name in this) {
             // @ts-ignore
 			this[name] = this.compileValue(name, value);

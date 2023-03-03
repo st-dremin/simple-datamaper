@@ -1,6 +1,8 @@
+import { BaseEntity } from "../BaseEntity";
 export declare class CastAttribute {
     protected value: any;
-    constructor(value: any);
-    set(value: any): CastAttribute;
+    protected model: BaseEntity;
+    constructor(model: BaseEntity, value?: null);
+    set(value?: any): CastAttribute;
     get(): any;
 }

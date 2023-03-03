@@ -1,9 +1,11 @@
 import { faker } from "@faker-js/faker";
-import { ModelDecorator, BaseEntity, CastAttribute, Cast } from '@st-dremin/simple-orm-ts';
+import { Cast, ModelDecorator } from "../Decorators";
+import { CastAttribute } from "../Casts/CastAttribute";
+import { BaseEntity } from "../BaseEntity";
 
 
 class DateCast extends CastAttribute {
-	set(value: string | null) {
+	set(value: any) {
 		if (!value) {
 			this.value = null;
 		} else {
